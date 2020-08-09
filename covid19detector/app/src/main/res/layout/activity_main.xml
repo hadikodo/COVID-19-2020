@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".MainActivity" >
+
+    <ImageView
+        android:id="@+id/ul_logo"
+        android:layout_width="106dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.816"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/ul_logo" />
+
+    <TextView
+        android:id="@+id/ul_txt"
+        android:layout_width="162dp"
+        android:layout_height="22dp"
+        android:text="@string/ul_txt"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.879"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ul_logo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/iph_btn"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="140dp"
+        android:background="@drawable/gradient3"
+        android:onClick="iph_click"
+        android:text="@string/iph_btn"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rtc_btn"
+        app:layout_constraintVertical_bias="0.265" />
+
+    <TextView
+        android:id="@+id/wlc_txt"
+        android:layout_width="318dp"
+        android:layout_height="83dp"
+        android:fontFamily="@font/baloo"
+        android:text="@string/wlc_txt"
+        android:textAlignment="center"
+        android:textSize="26sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ul_txt"
+        app:layout_constraintVertical_bias="0.048" />
+
+    <TextView
+        android:id="@+id/info_txt"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:text="@string/info_txt"
+        app:layout_constraintBottom_toTopOf="@+id/rtc_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wlc_txt"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <Button
+        android:id="@+id/rtc_btn"
+        android:layout_width="230dp"
+        android:layout_height="60dp"
+        android:background="@drawable/gradient3"
+        android:onClick="rtc_click"
+        android:text="@string/rtc_btn"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.578" />
+</androidx.constraintlayout.widget.ConstraintLayout>

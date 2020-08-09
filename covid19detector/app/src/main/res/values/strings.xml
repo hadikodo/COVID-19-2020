@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">COVID-19 Detector X</string>
+    <string name="ul_txt"><font align="center" color="Black"><b>UL-Faculty Of Science V</b></font></string>
+    <string name="nc_btn"><font align="center" color="Black"><b>Take Photo</b></font></string>
+    <string name="iph_btn"><font align="center" color="Black"><b>Import Photo</b></font></string>
+    <string name="wlc_txt"><font align="center" color="#2F528F"><b>Welcome To\nCOVID-19 Detector X</b></font></string>
+    <string name="info_txt"><font align="center" color="Grey"><i>*Please Take Or Import XRay Photo*</i></font></string>
+    <string name="rtc_btn"><font align="center" color="Black"><b>Real-Time Camera</b></font></string>
+    <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">TFL Detect</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="tfe_ic_app_name" translation_description="Image Classification demo app [CHAR_LIMIT=40]">TFL Classify</string>
+    <string name="tfe_ic_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="tfe_ic_gpu_quant_error" translation_description="Error regarding GPU support for Quant models[CHAR_LIMIT=60]">GPU does not yet supported quantized models.</string>
+    <string name="tfe_ic_model" translatable="false">Model:</string>
+</resources>
